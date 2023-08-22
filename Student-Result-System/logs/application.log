@@ -1,0 +1,25 @@
+2023-08-22 12:06:13,956 INFO  [main] verticle.MainVerticle: Starting the Application
+2023-08-22 12:06:14,115 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Server started on port 8081
+2023-08-22 12:06:29,120 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Student ID: 121257 Student Name: Dulsara Gimhana
+2023-08-22 12:06:29,193 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: New student data saved successfully for the given ID 121257
+2023-08-22 12:06:29,195 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Student data saved and put the response in postman.
+2023-08-22 12:06:47,633 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Student ID: 121257 Student Name: Dulsara Gimhana
+2023-08-22 12:06:47,641 ERROR [vert.x-eventloop-thread-0] verticle.MainVerticle: Error saving student data due to ERROR: duplicate key value violates unique constraint "students_pkey" (23505)
+2023-08-22 12:06:47,641 ERROR [vert.x-eventloop-thread-3] verticle.DBVerticle: Future{cause=ERROR: duplicate key value violates unique constraint "students_pkey" (23505)}
+2023-08-22 12:07:01,015 INFO  [vert.x-eventloop-thread-2] verticle.DBVerticle: Results generated and have to check if the student ID already exist in the results table.
+2023-08-22 12:07:01,027 INFO  [vert.x-eventloop-thread-2] verticle.DBVerticle: {"id":"121257","marks":24,"grade":"F"}
+2023-08-22 12:07:01,034 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: New results data saved successfully for the given ID 121257
+2023-08-22 12:07:04,802 INFO  [vert.x-eventloop-thread-2] verticle.DBVerticle: Results generated and have to check if the student ID already exist in the results table.
+2023-08-22 12:07:04,802 INFO  [vert.x-eventloop-thread-2] verticle.DBVerticle: {"id":"121257","marks":37,"grade":"F"}
+2023-08-22 12:07:04,805 INFO  [vert.x-eventloop-thread-3] verticle.DBVerticle: Results already saved for the given ID 121257
+2023-08-22 12:08:09,254 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Result applied student ID : 121257
+2023-08-22 12:08:09,257 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: Result data write to a jason successfully
+2023-08-22 12:08:09,257 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: {"id":"121257","marks":"24","grade":"F"}
+2023-08-22 12:08:09,257 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: Result data got successfully
+2023-08-22 12:08:09,257 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Result data taken successfully and showed in postman.
+2023-08-22 12:08:22,197 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Data deletion applied student ID : 121257
+2023-08-22 12:08:22,200 INFO  [vert.x-eventloop-thread-1] verticle.DBVerticle: Student data deleted successfully
+2023-08-22 12:08:22,201 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Student data for id 121257 deleted
+2023-08-22 12:08:30,253 INFO  [vert.x-eventloop-thread-0] verticle.MainVerticle: Data deletion applied student ID : 121257
+2023-08-22 12:08:30,255 ERROR [vert.x-eventloop-thread-3] verticle.DBVerticle: Error deleting student data 
+2023-08-22 12:08:30,255 ERROR [vert.x-eventloop-thread-0] verticle.MainVerticle: Error deleting student data of ID 121257 due to Student not found

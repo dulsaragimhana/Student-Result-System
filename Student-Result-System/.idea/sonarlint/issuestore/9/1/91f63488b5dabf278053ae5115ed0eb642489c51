@@ -1,0 +1,41 @@
+
+R
+java:S2629K"7Use the built-in formatting to construct this argument.(ì„éÓøÿÿÿÿ
+M
+java:S2629|"7Use the built-in formatting to construct this argument.(ø“
+S
+java:S2629Ÿ"7Use the built-in formatting to construct this argument.(Ü£øÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(ş›,
+Q	java:S1252"<This block of commented-out lines of code should be removed.(‰³£à
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(¶èßüÿÿÿÿ
+Q	java:S125B"<This block of commented-out lines of code should be removed.(šÇ²
+P
+java:S1874D"5Remove this use of "getBodyAsJson"; it is deprecated.(°°ƒøüÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¨ù€ë
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ÀÏßğüÿÿÿÿ
+\
+java:S3457K"AFormat specifiers should be used instead of string concatenation.(ì„éÓøÿÿÿÿ
+W
+java:S3457X"AFormat specifiers should be used instead of string concatenation.(„ÎìŠ
+P
+java:S1874d"5Remove this use of "getBodyAsJson"; it is deprecated.(‰¦™¢şÿÿÿÿ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(„ÌÎ
+Q	java:S125m"<This block of commented-out lines of code should be removed.(âòŸÆ
+W
+java:S3457p"AFormat specifiers should be used instead of string concatenation.(éÕà¢
+W
+java:S3457|"AFormat specifiers should be used instead of string concatenation.(ø“
+]
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ıîÒÇûÿÿÿÿ
+]
+java:S3457Ÿ"AFormat specifiers should be used instead of string concatenation.(Ü£øÿÿÿÿ
+]
+java:S3457§"AFormat specifiers should be used instead of string concatenation.(ï±ÉÍùÿÿÿÿ
+]
+java:S3457ª"AFormat specifiers should be used instead of string concatenation.(°æğÀûÿÿÿÿ
+W
+java:S1128"<Remove this unused import 'io.vertx.core.eventbus.EventBus'.(Â®îüÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'studentmanagement.Results'.(»ÓÚ”
+U
+java:S1128":Remove this unused import 'studentmanagement.StudentData'.(„ö©úúÿÿÿÿ

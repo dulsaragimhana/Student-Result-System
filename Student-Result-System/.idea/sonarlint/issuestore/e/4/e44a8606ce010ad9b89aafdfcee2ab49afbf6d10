@@ -1,0 +1,12 @@
+
+0
+java:S1220""Move this file to a named package.
+B
+java:S3416"'Update this logger to use "Main.class".(Ê·ò”øÿÿÿÿ
+U
+java:S1128":Remove this unused import 'studentmanagement.StudentData'.(„ö©úúÿÿÿÿ
+4
+java:S1128	"Remove this duplicated import.(Ë”Ëé
+9
+java:S1128
+"Remove this duplicated import.(»¯øÿÿÿÿ
